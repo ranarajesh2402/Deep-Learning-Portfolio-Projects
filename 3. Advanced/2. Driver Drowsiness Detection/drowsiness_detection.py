@@ -116,3 +116,8 @@ while(True):
         break
 cap.release()
 cv2.destroyAllWindows()
+
+# Instruction :  Press 'q' to quit the program.
+
+# Run the command below in the terminal to test drowsinees detection by camera:
+# python drowsiness_detection.py
