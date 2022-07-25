@@ -73,3 +73,18 @@ while cv2.waitKey(1)<0:
 
         cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv2.LINE_AA)
         cv2.imshow("Detecting age and gender", resultImg)
+        
+        
+# Run the command below in the terminal to test local images:
+# python gad.py --image girl1.jpg
+# python gad.py --image girl2.jpg
+# python gad.py --image kid1.jpg
+# python gad.py --image man1.jpg
+# python gad.py --image minion.jpg
+# python gad.py --image woman1.jpg
+# python gad.py --image woman3.jpg
+
+
+
+# Run the command below in the terminal to test your gender and age by camera :
+# python gad.py 
